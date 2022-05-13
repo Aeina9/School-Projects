@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classElectionDriver.html" title="An abstract class handling all election types." alt="" coords="5,56,120,83"/>
+<area shape="rect" id="node2" href="$classIRVDriver.html" title="A class for running the IRV Election." alt="" coords="169,5,253,32"/>
+<area shape="rect" id="node3" href="$classOPLDriver.html" title="A class for running the OPL Election." alt="" coords="168,56,255,83"/>
+<area shape="rect" id="node4" href="$classPODriver.html" title="A class for running the PO Election." alt="" coords="171,107,251,133"/>
+</map>

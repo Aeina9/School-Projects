@@ -1,0 +1,129 @@
+\hypertarget{classParty}{}\doxysection{Party Class Reference}
+\label{classParty}\index{Party@{Party}}
+
+
+A class which organizes the candidates into their associated party.  
+
+
+
+
+{\ttfamily \#include $<$party.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classParty_ac9232168fc48a6cc7c9c24a9943b816e}{get\+Total\+Votes}} ()
+\begin{DoxyCompactList}\small\item\em Gets the Total Votes for the party. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classParty_aac52af6d958b5e84cfcef5d2705330e7}{get\+Name}} ()
+\begin{DoxyCompactList}\small\item\em Gets the name of the party. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classCandidate}{Candidate}} $\ast$ \mbox{\hyperlink{classParty_ab76a9d2083ecb4b2ddf3efe60cd7a1cd}{get\+Popular\+Candidate}} ()
+\begin{DoxyCompactList}\small\item\em Gets the candidate with the most votes. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classParty_a0f5a3e02cbc1d9226cfaff159b6352d9}{get\+Num\+Candidates}} ()
+\begin{DoxyCompactList}\small\item\em Gets the number of candidates associated with each party. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classParty_a166dc7f3d37525953976b7dfbcafd785}{set\+Name}} (std\+::string name)
+\begin{DoxyCompactList}\small\item\em Sets the name of a party. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classParty_a8aaa849672cbf85a7318fa73154873c5}\label{classParty_a8aaa849672cbf85a7318fa73154873c5}} 
+void \mbox{\hyperlink{classParty_a8aaa849672cbf85a7318fa73154873c5}{calculate\+Total\+Votes}} ()
+\begin{DoxyCompactList}\small\item\em calculate the total votes for the party \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classParty_a575f456121346df056544070a5debd73}{add\+Candidate}} (\mbox{\hyperlink{classCandidate}{Candidate}} $\ast$candidate)
+\begin{DoxyCompactList}\small\item\em Adding a candidate to the party. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classParty_ad4ac3274ddb5417f13755a55cc9b6d0f}\label{classParty_ad4ac3274ddb5417f13755a55cc9b6d0f}} 
+std\+::string {\bfseries name}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class which organizes the candidates into their associated party. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classParty_a575f456121346df056544070a5debd73}\label{classParty_a575f456121346df056544070a5debd73}} 
+\index{Party@{Party}!addCandidate@{addCandidate}}
+\index{addCandidate@{addCandidate}!Party@{Party}}
+\doxysubsubsection{\texorpdfstring{addCandidate()}{addCandidate()}}
+{\footnotesize\ttfamily void Party\+::add\+Candidate (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCandidate}{Candidate}} $\ast$}]{candidate }\end{DoxyParamCaption})}
+
+
+
+Adding a candidate to the party. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em candidate} & the candidate that will be added to the party \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classParty_aac52af6d958b5e84cfcef5d2705330e7}\label{classParty_aac52af6d958b5e84cfcef5d2705330e7}} 
+\index{Party@{Party}!getName@{getName}}
+\index{getName@{getName}!Party@{Party}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily std\+::string Party\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the name of the party. 
+
+\begin{DoxyReturn}{Returns}
+name of the party 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classParty_a0f5a3e02cbc1d9226cfaff159b6352d9}\label{classParty_a0f5a3e02cbc1d9226cfaff159b6352d9}} 
+\index{Party@{Party}!getNumCandidates@{getNumCandidates}}
+\index{getNumCandidates@{getNumCandidates}!Party@{Party}}
+\doxysubsubsection{\texorpdfstring{getNumCandidates()}{getNumCandidates()}}
+{\footnotesize\ttfamily int Party\+::get\+Num\+Candidates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the number of candidates associated with each party. 
+
+\begin{DoxyReturn}{Returns}
+the number of candiates in each party 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classParty_ab76a9d2083ecb4b2ddf3efe60cd7a1cd}\label{classParty_ab76a9d2083ecb4b2ddf3efe60cd7a1cd}} 
+\index{Party@{Party}!getPopularCandidate@{getPopularCandidate}}
+\index{getPopularCandidate@{getPopularCandidate}!Party@{Party}}
+\doxysubsubsection{\texorpdfstring{getPopularCandidate()}{getPopularCandidate()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classCandidate}{Candidate}} $\ast$ Party\+::get\+Popular\+Candidate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the candidate with the most votes. 
+
+\begin{DoxyReturn}{Returns}
+the candidate with the most votes 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classParty_ac9232168fc48a6cc7c9c24a9943b816e}\label{classParty_ac9232168fc48a6cc7c9c24a9943b816e}} 
+\index{Party@{Party}!getTotalVotes@{getTotalVotes}}
+\index{getTotalVotes@{getTotalVotes}!Party@{Party}}
+\doxysubsubsection{\texorpdfstring{getTotalVotes()}{getTotalVotes()}}
+{\footnotesize\ttfamily int Party\+::get\+Total\+Votes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the Total Votes for the party. 
+
+\begin{DoxyReturn}{Returns}
+the total number of votes 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classParty_a166dc7f3d37525953976b7dfbcafd785}\label{classParty_a166dc7f3d37525953976b7dfbcafd785}} 
+\index{Party@{Party}!setName@{setName}}
+\index{setName@{setName}!Party@{Party}}
+\doxysubsubsection{\texorpdfstring{setName()}{setName()}}
+{\footnotesize\ttfamily void Party\+::set\+Name (\begin{DoxyParamCaption}\item[{std\+::string}]{name }\end{DoxyParamCaption})}
+
+
+
+Sets the name of a party. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & party\textquotesingle{}s name \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/nguy2841/csci5801/repo-\/\+Team13/\+Project1/src/party.\+h\item 
+/home/nguy2841/csci5801/repo-\/\+Team13/\+Project1/src/party.\+cpp\end{DoxyCompactItemize}

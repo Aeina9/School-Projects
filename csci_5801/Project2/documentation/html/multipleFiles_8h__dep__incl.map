@@ -1,0 +1,5 @@
+<map id="multipleFiles.h" name="multipleFiles.h">
+<area shape="rect" id="node1" title="A class that combines multiple election files for an election." alt="" coords="53,5,171,32"/>
+<area shape="rect" id="node2" href="$main_8cpp.html" title="Main function in that takes in command line inputs and runs the according election with the files giv..." alt="" coords="5,80,88,107"/>
+<area shape="rect" id="node3" href="$multipleFiles_8cpp.html" title="Goes through all given files and combines them into &quot;combinedFile.csv&quot; with update ballot count and b..." alt="" coords="113,80,245,107"/>
+</map>

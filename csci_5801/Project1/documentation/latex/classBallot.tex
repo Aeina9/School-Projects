@@ -1,0 +1,77 @@
+\hypertarget{classBallot}{}\doxysection{Ballot Class Reference}
+\label{classBallot}\index{Ballot@{Ballot}}
+
+
+A class that holds each vote.  
+
+
+
+
+{\ttfamily \#include $<$ballot.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classBallot_ad6be6a1b7d08a92e2835d2c7e9758d48}{push}} (int candidate\+\_\+vote)
+\begin{DoxyCompactList}\small\item\em Adds a new vote onto the stack. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBallot_acd355b3fa8d6b639b316b9f0154c2c00}{pop}} ()
+\begin{DoxyCompactList}\small\item\em Returns the first vote off the stack. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classBallot_a5cd7f59448e48779a23e8ca9bc564a18}{is\+Empty}} ()
+\begin{DoxyCompactList}\small\item\em Returns if there are or are not any more votes to process in the stack to determine if the I\+RV Driver can delete the ballot. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class that holds each vote. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classBallot_a5cd7f59448e48779a23e8ca9bc564a18}\label{classBallot_a5cd7f59448e48779a23e8ca9bc564a18}} 
+\index{Ballot@{Ballot}!isEmpty@{isEmpty}}
+\index{isEmpty@{isEmpty}!Ballot@{Ballot}}
+\doxysubsubsection{\texorpdfstring{isEmpty()}{isEmpty()}}
+{\footnotesize\ttfamily bool Ballot\+::is\+Empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns if there are or are not any more votes to process in the stack to determine if the I\+RV Driver can delete the ballot. 
+
+\begin{DoxyReturn}{Returns}
+true if there are no more votes to process in the stack 
+
+false if there are more votes to process in the stack 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classBallot_acd355b3fa8d6b639b316b9f0154c2c00}\label{classBallot_acd355b3fa8d6b639b316b9f0154c2c00}} 
+\index{Ballot@{Ballot}!pop@{pop}}
+\index{pop@{pop}!Ballot@{Ballot}}
+\doxysubsubsection{\texorpdfstring{pop()}{pop()}}
+{\footnotesize\ttfamily int Ballot\+::pop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns the first vote off the stack. 
+
+\begin{DoxyReturn}{Returns}
+the first vote on the stack 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classBallot_ad6be6a1b7d08a92e2835d2c7e9758d48}\label{classBallot_ad6be6a1b7d08a92e2835d2c7e9758d48}} 
+\index{Ballot@{Ballot}!push@{push}}
+\index{push@{push}!Ballot@{Ballot}}
+\doxysubsubsection{\texorpdfstring{push()}{push()}}
+{\footnotesize\ttfamily void Ballot\+::push (\begin{DoxyParamCaption}\item[{int}]{candidate\+\_\+vote }\end{DoxyParamCaption})}
+
+
+
+Adds a new vote onto the stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em candidate\+\_\+vote} & index of the candidate that is represented in the C\+SV \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/nguy2841/csci5801/repo-\/\+Team13/\+Project1/src/ballot.\+h\item 
+/home/nguy2841/csci5801/repo-\/\+Team13/\+Project1/src/ballot.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,97 @@
+\hypertarget{classIRVDriver}{}\doxysection{I\+R\+V\+Driver Class Reference}
+\label{classIRVDriver}\index{IRVDriver@{IRVDriver}}
+
+
+A class for running the I\+RV Election.  
+
+
+
+
+{\ttfamily \#include $<$irv\+Driver.\+h$>$}
+
+
+
+Inheritance diagram for I\+R\+V\+Driver\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=166pt]{classIRVDriver__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for I\+R\+V\+Driver\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=215pt]{classIRVDriver__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classIRVDriver_adcd45cf816ef846afa1cf7a21bb5b339}\label{classIRVDriver_adcd45cf816ef846afa1cf7a21bb5b339}} 
+\mbox{\hyperlink{classIRVDriver_adcd45cf816ef846afa1cf7a21bb5b339}{I\+R\+V\+Driver}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classIRVDriver_a40d8de735b772f2679791e2886021f4e}\label{classIRVDriver_a40d8de735b772f2679791e2886021f4e}} 
+\mbox{\hyperlink{classIRVDriver_a40d8de735b772f2679791e2886021f4e}{$\sim$\+I\+R\+V\+Driver}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classIRVDriver_a0ac85912cd8ab1189139f48228d89a6c}{run}} (std\+::string filename)
+\begin{DoxyCompactList}\small\item\em The run function is used to run the Election. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classIRVDriver_a7ab1127f6c3dbbf209856d9dea626632}{shuffle\+On}} = false
+\begin{DoxyCompactList}\small\item\em The option to turn on and off shuffle for testing purposes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class for running the I\+RV Election. 
+
+\begin{DoxyAuthor}{Author}
+William Henning 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classIRVDriver_a0ac85912cd8ab1189139f48228d89a6c}\label{classIRVDriver_a0ac85912cd8ab1189139f48228d89a6c}} 
+\index{IRVDriver@{IRVDriver}!run@{run}}
+\index{run@{run}!IRVDriver@{IRVDriver}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily void I\+R\+V\+Driver\+::run (\begin{DoxyParamCaption}\item[{std\+::string}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+The run function is used to run the Election. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & the csv file the function will run \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{classElectionDriver_a95cf8a4cbc4b1f3af1348feb7eaae555}{Election\+Driver}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classIRVDriver_a7ab1127f6c3dbbf209856d9dea626632}\label{classIRVDriver_a7ab1127f6c3dbbf209856d9dea626632}} 
+\index{IRVDriver@{IRVDriver}!shuffleOn@{shuffleOn}}
+\index{shuffleOn@{shuffleOn}!IRVDriver@{IRVDriver}}
+\doxysubsubsection{\texorpdfstring{shuffleOn}{shuffleOn}}
+{\footnotesize\ttfamily bool I\+R\+V\+Driver\+::shuffle\+On = false}
+
+
+
+The option to turn on and off shuffle for testing purposes. 
+
+\begin{DoxyReturn}{Returns}
+true for shuffle is on and false for shuffle is off. Default off. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{irvDriver_8h}{irv\+Driver.\+h}}\item 
+\mbox{\hyperlink{irvDriver_8cpp}{irv\+Driver.\+cpp}}\end{DoxyCompactItemize}

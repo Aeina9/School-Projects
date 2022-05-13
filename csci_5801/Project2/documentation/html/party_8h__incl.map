@@ -1,0 +1,9 @@
+<map id="party.h" name="party.h">
+<area shape="rect" id="node1" title="A class which organizes the candidates into their associated party." alt="" coords="193,5,260,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="88,155,168,181"/>
+<area shape="rect" id="node3" title=" " alt="" coords="197,155,256,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="351,80,414,107"/>
+<area shape="rect" id="node5" href="$candidate_8h.html" title="Implementation of candidate functions." alt="" coords="177,80,276,107"/>
+<area shape="rect" id="node6" href="$coin_8h.html" title="A class that uses a coin flip to determine the winner of a tie." alt="" coords="92,80,153,107"/>
+<area shape="rect" id="node7" title=" " alt="" coords="5,155,64,181"/>
+</map>

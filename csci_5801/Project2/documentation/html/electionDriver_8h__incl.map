@@ -1,0 +1,13 @@
+<map id="electionDriver.h" name="electionDriver.h">
+<area shape="rect" id="node1" title="An abstract class handling all election types." alt="" coords="203,5,330,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,91,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="115,80,178,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="126,155,199,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="576,155,656,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="224,155,299,181"/>
+<area shape="rect" id="node7" href="$coin_8h.html" title="A class that uses a coin flip to determine the winner of a tie." alt="" coords="460,80,521,107"/>
+<area shape="rect" id="node10" href="$textResult_8h.html" title="A class that generates the output files." alt="" coords="304,80,405,107"/>
+<area shape="rect" id="node8" title=" " alt="" coords="493,155,552,181"/>
+<area shape="rect" id="node9" title=" " alt="" coords="411,155,469,181"/>
+<area shape="rect" id="node11" title=" " alt="" coords="323,155,386,181"/>
+</map>

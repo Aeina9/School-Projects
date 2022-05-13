@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/edit_schedule"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/sundayItem2"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sundayItem1" />
+
+    <TextView
+        android:id="@+id/sundayItem3"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sundayItem2" />
+
+    <TextView
+        android:id="@+id/sundayItem4"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sundayItem3" />
+
+    <Button
+        android:id="@+id/add_element"
+        android:layout_width="74dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/maroonRed"
+        android:text="Add Event"
+        android:textColor="@color/white"
+        android:textSize="@dimen/activity_horizontal_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/month"
+        android:layout_width="160dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/maroonRed"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Sunday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="88dp"
+        android:text="Sun"
+        android:textColor="@color/maroonRed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Monday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="88dp"
+        android:text="Mon"
+        android:textColor="@color/maroonRed"
+        app:layout_constraintStart_toEndOf="@+id/Sunday"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Tuesday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="88dp"
+        android:text="Tue"
+        android:textColor="@color/maroonRed"
+        app:layout_constraintStart_toEndOf="@+id/Monday"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Wednesday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="88dp"
+        android:text="Wed"
+        android:textColor="@color/maroonRed"
+        app:layout_constraintStart_toEndOf="@+id/Tuesday"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Thursday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="88dp"
+        android:text="Thu"
+        android:textColor="@color/maroonRed"
+        app:layout_constraintStart_toEndOf="@+id/Wednesday"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Friday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="88dp"
+        android:text="Fri"
+        android:textColor="@color/maroonRed"
+        app:layout_constraintStart_toEndOf="@+id/Thursday"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Saturday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="88dp"
+        android:text="Sat"
+        android:textColor="@color/maroonRed"
+        app:layout_constraintStart_toEndOf="@+id/Friday"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/clear_schedule"
+        android:layout_width="86dp"
+        android:layout_height="72dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/maroonRed"
+        android:text="CLEAR SCHEDULE"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/import_schedule" />
+
+    <Button
+        android:id="@+id/import_schedule"
+        android:layout_width="86dp"
+        android:layout_height="72dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/maroonRed"
+        android:text="IMPORT SCHEDULE"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/next_class" />
+
+    <Button
+        android:id="@+id/next_class"
+        android:layout_width="86dp"
+        android:layout_height="72dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/maroonRed"
+        android:text="Go To Next Class"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/edit_elements"
+        android:layout_width="74dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/maroonRed"
+        android:text="EDIT EVENTS"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/add_element"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sundayItem1"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Sunday" />
+
+    <TextView
+        android:id="@+id/mondayItem1"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/sundayItem1"
+        app:layout_constraintTop_toBottomOf="@+id/Monday" />
+
+    <TextView
+        android:id="@+id/tuesdayItem1"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/mondayItem1"
+        app:layout_constraintTop_toBottomOf="@+id/Tuesday" />
+
+    <TextView
+        android:id="@+id/wednesdayItem1"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/tuesdayItem1"
+        app:layout_constraintTop_toBottomOf="@+id/Wednesday" />
+
+    <TextView
+        android:id="@+id/thursdayItem1"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/wednesdayItem1"
+        app:layout_constraintTop_toBottomOf="@+id/Thursday" />
+
+    <TextView
+        android:id="@+id/fridayItem1"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/thursdayItem1"
+        app:layout_constraintTop_toBottomOf="@+id/Friday" />
+
+    <TextView
+        android:id="@+id/saturdayItem1"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/fridayItem1"
+        app:layout_constraintTop_toBottomOf="@+id/Saturday" />
+
+    <TextView
+        android:id="@+id/saturdayItem2"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/fridayItem2"
+        app:layout_constraintTop_toBottomOf="@+id/saturdayItem1" />
+
+    <TextView
+        android:id="@+id/saturdayItem3"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/fridayItem3"
+        app:layout_constraintTop_toBottomOf="@+id/saturdayItem2" />
+
+    <TextView
+        android:id="@+id/saturdayItem4"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/fridayItem4"
+        app:layout_constraintTop_toBottomOf="@+id/saturdayItem3" />
+
+    <TextView
+        android:id="@+id/fridayItem2"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/thursdayItem2"
+        app:layout_constraintTop_toBottomOf="@+id/fridayItem1" />
+
+    <TextView
+        android:id="@+id/fridayItem3"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/thursdayItem3"
+        app:layout_constraintTop_toBottomOf="@+id/fridayItem2" />
+
+    <TextView
+        android:id="@+id/fridayItem4"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/thursdayItem4"
+        app:layout_constraintTop_toBottomOf="@+id/fridayItem3" />
+
+    <TextView
+        android:id="@+id/thursdayItem2"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/wednesdayItem2"
+        app:layout_constraintTop_toBottomOf="@+id/thursdayItem1" />
+
+    <TextView
+        android:id="@+id/thursdayItem3"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/wednesdayItem3"
+        app:layout_constraintTop_toBottomOf="@+id/thursdayItem2" />
+
+    <TextView
+        android:id="@+id/thursdayItem4"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/wednesdayItem4"
+        app:layout_constraintTop_toBottomOf="@+id/thursdayItem3" />
+
+    <TextView
+        android:id="@+id/wednesdayItem2"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/tuesdayItem2"
+        app:layout_constraintTop_toBottomOf="@+id/wednesdayItem1" />
+
+    <TextView
+        android:id="@+id/wednesdayItem3"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/tuesdayItem3"
+        app:layout_constraintTop_toBottomOf="@+id/wednesdayItem2" />
+
+    <TextView
+        android:id="@+id/wednesdayItem4"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/tuesdayItem4"
+        app:layout_constraintTop_toBottomOf="@+id/wednesdayItem3" />
+
+    <TextView
+        android:id="@+id/tuesdayItem2"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/mondayItem2"
+        app:layout_constraintTop_toBottomOf="@+id/tuesdayItem1" />
+
+    <TextView
+        android:id="@+id/tuesdayItem3"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/mondayItem3"
+        app:layout_constraintTop_toBottomOf="@+id/tuesdayItem2" />
+
+    <TextView
+        android:id="@+id/tuesdayItem4"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/mondayItem4"
+        app:layout_constraintTop_toBottomOf="@+id/tuesdayItem3" />
+
+    <TextView
+        android:id="@+id/mondayItem2"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/sundayItem2"
+        app:layout_constraintTop_toBottomOf="@+id/mondayItem1" />
+
+    <TextView
+        android:id="@+id/mondayItem3"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/sundayItem3"
+        app:layout_constraintTop_toBottomOf="@+id/mondayItem2" />
+
+    <TextView
+        android:id="@+id/mondayItem4"
+        android:layout_width="58dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/sundayItem4"
+        app:layout_constraintTop_toBottomOf="@+id/mondayItem3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

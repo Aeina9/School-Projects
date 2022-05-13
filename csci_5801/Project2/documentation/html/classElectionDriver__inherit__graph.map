@@ -1,0 +1,6 @@
+<map id="ElectionDriver" name="ElectionDriver">
+<area shape="rect" id="node1" title="An abstract class handling all election types." alt="" coords="99,5,214,32"/>
+<area shape="rect" id="node2" href="$classIRVDriver.html" title="A class for running the IRV Election." alt="" coords="5,80,89,107"/>
+<area shape="rect" id="node3" href="$classOPLDriver.html" title="A class for running the OPL Election." alt="" coords="113,80,200,107"/>
+<area shape="rect" id="node4" href="$classPODriver.html" title="A class for running the PO Election." alt="" coords="225,80,305,107"/>
+</map>

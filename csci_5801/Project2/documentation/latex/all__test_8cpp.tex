@@ -1,0 +1,76 @@
+\hypertarget{all__test_8cpp}{}\doxysection{all\+\_\+test.\+cpp File Reference}
+\label{all__test_8cpp}\index{all\_test.cpp@{all\_test.cpp}}
+
+
+Google testing file.  
+
+
+{\ttfamily \#include \char`\"{}ballot.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ballot\+Queue.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}candidate.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}coin.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}gtest/gtest.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}party.\+h\char`\"{}}\newline
+Include dependency graph for all\+\_\+test.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{all__test_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classAllTest}{All\+Test}}
+\begin{DoxyCompactList}\small\item\em Google testing, unit and integration tests. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{all__test_8cpp_a90ab774802a078d234aed2f0ac2e201e}\label{all__test_8cpp_a90ab774802a078d234aed2f0ac2e201e}} 
+\mbox{\hyperlink{all__test_8cpp_a90ab774802a078d234aed2f0ac2e201e}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{classAllTest}{All\+Test}}, Ballot\+Empty\+Test)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classBallot}{Ballot}} class tests push() and is\+Empty() \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{all__test_8cpp_aaf84fea571b26650449b46c70719b09c}\label{all__test_8cpp_aaf84fea571b26650449b46c70719b09c}} 
+\mbox{\hyperlink{all__test_8cpp_aaf84fea571b26650449b46c70719b09c}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{classAllTest}{All\+Test}}, Ballot\+Pop\+Test)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classBallot}{Ballot}} class tests push() and pop() \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{all__test_8cpp_a7649ad515688dbbdabc080f233e18148}\label{all__test_8cpp_a7649ad515688dbbdabc080f233e18148}} 
+\mbox{\hyperlink{all__test_8cpp_a7649ad515688dbbdabc080f233e18148}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{classAllTest}{All\+Test}}, Candidate\+Name\+Test)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classCandidate}{Candidate}} class tests set\+Name() and get\+Name() \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{all__test_8cpp_aa82699cddd2f1afc4f650f9a21adf811}\label{all__test_8cpp_aa82699cddd2f1afc4f650f9a21adf811}} 
+\mbox{\hyperlink{all__test_8cpp_aa82699cddd2f1afc4f650f9a21adf811}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{classAllTest}{All\+Test}}, Candidate\+Add\+Vote\+Test)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classCandidate}{Candidate}} class tests get\+Num\+Votes() and add\+Votes() \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{all__test_8cpp_a0bc113040bcf440b35f30851f718cbc9}\label{all__test_8cpp_a0bc113040bcf440b35f30851f718cbc9}} 
+\mbox{\hyperlink{all__test_8cpp_a0bc113040bcf440b35f30851f718cbc9}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{classAllTest}{All\+Test}}, Add\+Candidate\+To\+Party\+Test)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classCandidate}{Candidate}} and party class integration tests adding a candidate to a party. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{all__test_8cpp_a670cf59e26170da1b47efe505406dfab}\label{all__test_8cpp_a670cf59e26170da1b47efe505406dfab}} 
+\mbox{\hyperlink{all__test_8cpp_a670cf59e26170da1b47efe505406dfab}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{classAllTest}{All\+Test}}, Party\+Name\+Test)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classParty}{Party}} class tests get\+Name() and set\+Name() \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{all__test_8cpp_a5c68d6d09a48c7b4271ba8e2cd725d1a}\label{all__test_8cpp_a5c68d6d09a48c7b4271ba8e2cd725d1a}} 
+\mbox{\hyperlink{all__test_8cpp_a5c68d6d09a48c7b4271ba8e2cd725d1a}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{classAllTest}{All\+Test}}, Party\+Total\+Votes\+Test)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classParty}{Party}} and \mbox{\hyperlink{classCandidate}{Candidate}} class integration tests total votes of a party by totaling all the party candidates\textquotesingle{} votes. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{all__test_8cpp_ac18e7081cbf0b90d0143876871b2b857}\label{all__test_8cpp_ac18e7081cbf0b90d0143876871b2b857}} 
+\mbox{\hyperlink{all__test_8cpp_ac18e7081cbf0b90d0143876871b2b857}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{classAllTest}{All\+Test}}, Coin\+Flip\+Test)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classCoin}{Coin}} class tests constructor and fairness of flip() \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{all__test_8cpp_accd62e29e5c4df2c37cf9d61e2666d7a}\label{all__test_8cpp_accd62e29e5c4df2c37cf9d61e2666d7a}} 
+\mbox{\hyperlink{all__test_8cpp_accd62e29e5c4df2c37cf9d61e2666d7a}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{classAllTest}{All\+Test}}, Ballot\+Queue\+Empty\+Test)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classBallotQueue}{Ballot\+Queue}} class tests is\+Empty() \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{all__test_8cpp_a2b256d221208046a75bc51905302a64c}\label{all__test_8cpp_a2b256d221208046a75bc51905302a64c}} 
+\mbox{\hyperlink{all__test_8cpp_a2b256d221208046a75bc51905302a64c}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{classAllTest}{All\+Test}}, Get\+Count\+Test)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classBallotQueue}{Ballot\+Queue}} class tests get\+Count() and push() \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{all__test_8cpp_a3b4348bdffa8645447eb51d2b3f65236}\label{all__test_8cpp_a3b4348bdffa8645447eb51d2b3f65236}} 
+\mbox{\hyperlink{all__test_8cpp_a3b4348bdffa8645447eb51d2b3f65236}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{classAllTest}{All\+Test}}, Ballot\+Queue\+Pop\+Test)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classBallotQueue}{Ballot\+Queue}} class tests pop() \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{all__test_8cpp_aed43f47cc4b4ad88a35d152159a7e8b6}\label{all__test_8cpp_aed43f47cc4b4ad88a35d152159a7e8b6}} 
+\mbox{\hyperlink{all__test_8cpp_aed43f47cc4b4ad88a35d152159a7e8b6}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{classAllTest}{All\+Test}}, Ballot\+Queue\+Shuffle)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classBallotQueue}{Ballot\+Queue}} class tests shuffle() May sometimes \char`\"{}fail\char`\"{}. Means huffled executed, but order remained the same. Not completely unavoidable. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Google testing file. 
+
+\begin{DoxyAuthor}{Author}
+Amy Nguyen 
+
+Kaley Schiffler 
+
+Hoin Jang 
+\end{DoxyAuthor}

@@ -1,0 +1,6 @@
+<map id="coin.h" name="coin.h">
+<area shape="rect" id="node1" title="A class that uses a coin flip to determine the winner of a tie." alt="" coords="97,5,159,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,64,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="88,80,168,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="192,80,251,107"/>
+</map>

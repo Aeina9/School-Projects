@@ -1,0 +1,76 @@
+\hypertarget{classElectionDriver}{}\doxysection{Election\+Driver Class Reference}
+\label{classElectionDriver}\index{ElectionDriver@{ElectionDriver}}
+
+
+An abstract class handling all election types.  
+
+
+
+
+{\ttfamily \#include $<$election\+Driver.\+h$>$}
+
+
+
+Inheritance diagram for Election\+Driver\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=305pt]{classElectionDriver__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Election\+Driver\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=215pt]{classElectionDriver__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{classElectionDriver_a95cf8a4cbc4b1f3af1348feb7eaae555}{run}} (std\+::string filename)=0
+\begin{DoxyCompactList}\small\item\em Pure virtual, all elections must have a \char`\"{}run\char`\"{} function. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classElectionDriver_a9a6109aceb2251c414f8db7b1f52fb9f}\label{classElectionDriver_a9a6109aceb2251c414f8db7b1f52fb9f}} 
+virtual \mbox{\hyperlink{classElectionDriver_a9a6109aceb2251c414f8db7b1f52fb9f}{$\sim$\+Election\+Driver}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classElectionDriver_a962f4359571f09ab0f39739fd7acd500}\label{classElectionDriver_a962f4359571f09ab0f39739fd7acd500}} 
+\mbox{\hyperlink{classCoin}{Coin}} \mbox{\hyperlink{classElectionDriver_a962f4359571f09ab0f39739fd7acd500}{c}}
+\begin{DoxyCompactList}\small\item\em Every election has a coin object for ties. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classElectionDriver_a6f3ba47e8e2accbab9758ca87399e0e8}\label{classElectionDriver_a6f3ba47e8e2accbab9758ca87399e0e8}} 
+\mbox{\hyperlink{classTextResult}{Text\+Result}} \mbox{\hyperlink{classElectionDriver_a6f3ba47e8e2accbab9758ca87399e0e8}{text\+Results}}
+\begin{DoxyCompactList}\small\item\em Every election has a \mbox{\hyperlink{classTextResult}{Text\+Result}} object to audit. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+An abstract class handling all election types. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classElectionDriver_a95cf8a4cbc4b1f3af1348feb7eaae555}\label{classElectionDriver_a95cf8a4cbc4b1f3af1348feb7eaae555}} 
+\index{ElectionDriver@{ElectionDriver}!run@{run}}
+\index{run@{run}!ElectionDriver@{ElectionDriver}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily virtual void Election\+Driver\+::run (\begin{DoxyParamCaption}\item[{std\+::string}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Pure virtual, all elections must have a \char`\"{}run\char`\"{} function. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & name and path of .csv election file \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classIRVDriver_a0ac85912cd8ab1189139f48228d89a6c}{I\+R\+V\+Driver}}, \mbox{\hyperlink{classOPLDriver_a2c34883722ad8533531c1ff1b4f11486}{O\+P\+L\+Driver}}, and \mbox{\hyperlink{classPODriver_a6d48d809aca3d6aab42bf5de292fa5f6}{P\+O\+Driver}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{electionDriver_8h}{election\+Driver.\+h}}\end{DoxyCompactItemize}

@@ -1,0 +1,12 @@
+<map id="ballot.h" name="ballot.h">
+<area shape="rect" id="node1" title="A class that holds each vote." alt="" coords="207,5,277,32"/>
+<area shape="rect" id="node2" href="$all__test_8cpp.html" title="Google testing file." alt="" coords="5,155,103,181"/>
+<area shape="rect" id="node3" href="$ballotQueue_8h.html" title="A class that holds all of the ballots." alt="" coords="124,80,237,107"/>
+<area shape="rect" id="node8" href="$ballot_8cpp.html" title="Implementation of ballot functions." alt="" coords="261,80,348,107"/>
+<area shape="rect" id="node9" href="$oplDriver_8h.html" title="A class for running the OPL Election." alt="" coords="372,80,467,107"/>
+<area shape="rect" id="node4" href="$ballotQueue_8cpp.html" title="Implementation of ballotQueue functions." alt="" coords="127,155,255,181"/>
+<area shape="rect" id="node5" href="$irvDriver_8h.html" title="A class for running the IRV Election." alt="" coords="279,155,370,181"/>
+<area shape="rect" id="node6" href="$irvDriver_8cpp.html" title="Runs an IRV election." alt="" coords="242,229,349,256"/>
+<area shape="rect" id="node7" href="$main_8cpp.html" title="Main function in that takes in command line inputs and runs the according election with the files giv..." alt="" coords="373,229,455,256"/>
+<area shape="rect" id="node10" href="$oplDriver_8cpp.html" title="Runs an OPL election." alt="" coords="451,155,561,181"/>
+</map>

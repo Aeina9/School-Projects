@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">GopherNavigate</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">GopherNavigator</string>
+    <string name="nav_header_subtitle">University of Minnesota - Twin Cities</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Help</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Schedule</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_navigate">NavigateActivity</string>
+
+    <string name="outdoor1">From the door, turn left.</string>
+    <string name="outdoor2">Turn left and find Stair 1.</string>
+    <string name="outdoor3">Go down one floor and head outside.</string>
+    <string name="outdoor4">From outside the door, take a right into the alley.</string>
+    <string name="outdoor5">Head down to the end of the path.</string>
+    <string name="outdoor6">Slight left and continue straight. Enter Keller Hall.</string>
+    <string name="outdoor7">Slight left and turn right into the hall. Follow signs for 3–115.</string>
+    <string name="outdoor8">Turn left. Your destination will be on the right.</string>
+
+
+    <string name="indoor1">Exit the room. Immediately make a left turn</string>
+    <string name="indoor2">Head straight into the hallway.</string>
+    <string name="indoor3">Turn left</string>
+    <string name="indoor4">Head on straight until you reach the elevator near the entrance.</string>
+    <string name="indoor5">Head on straight until you reach the elevator near the entrance.</string>
+    <string name="indoor6">Press “down” on the elevator. In the elevator press floor C.</string>
+    <string name="indoor7">Exit the elevator and follow the signs to Keller.</string>
+    <string name="indoor8">Proceed through the red doors to enter the Keller building.</string>
+    <string name="indoor9">Press up on the elevator. In the elevator select the 3rd floor.</string>
+    <string name="indoor10">Make a slight right and head forward.</string>
+    <string name="indoor11">Turn right on the first hallway you see. Then turn left at the end of the hallway.</string>
+    <string name="indoor12">Walk forward and you will see the classroom to your right.</string>
+
+</resources>

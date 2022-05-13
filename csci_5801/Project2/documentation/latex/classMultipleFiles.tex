@@ -1,0 +1,59 @@
+\hypertarget{classMultipleFiles}{}\doxysection{Multiple\+Files Class Reference}
+\label{classMultipleFiles}\index{MultipleFiles@{MultipleFiles}}
+
+
+A class that combines multiple election files for an election.  
+
+
+
+
+{\ttfamily \#include $<$multiple\+Files.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classMultipleFiles_a1e8d4e69a4ac6e88f41444c3f5e8bdb8}{combine\+Files}} (std\+::string filename, int filenum, std\+::string election\+Type)
+\begin{DoxyCompactList}\small\item\em function that goes through multiple files and combines data into \char`\"{}combined\+File.\+csv\char`\"{} for I\+RV and O\+PL \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classMultipleFiles_a1a350fd7930e427c5271f226dff046e9}\label{classMultipleFiles_a1a350fd7930e427c5271f226dff046e9}} 
+std\+::ofstream \mbox{\hyperlink{classMultipleFiles_a1a350fd7930e427c5271f226dff046e9}{combined\+File}}
+\begin{DoxyCompactList}\small\item\em data from multiple files will being combined into one file where the will run \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classMultipleFiles_a982609910bfe2d5e4fc9f61cc506d563}\label{classMultipleFiles_a982609910bfe2d5e4fc9f61cc506d563}} 
+std\+::stringstream \mbox{\hyperlink{classMultipleFiles_a982609910bfe2d5e4fc9f61cc506d563}{ballotstream}}
+\begin{DoxyCompactList}\small\item\em keeps a stream of all ballots in case of multiple files \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classMultipleFiles_aef6c811210d4e93ee7aa635b73ecb103}\label{classMultipleFiles_aef6c811210d4e93ee7aa635b73ecb103}} 
+int \mbox{\hyperlink{classMultipleFiles_aef6c811210d4e93ee7aa635b73ecb103}{ballot\+Count}} = 0
+\begin{DoxyCompactList}\small\item\em keeps total number of ballots for the election, initialized to 0 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class that combines multiple election files for an election. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classMultipleFiles_a1e8d4e69a4ac6e88f41444c3f5e8bdb8}\label{classMultipleFiles_a1e8d4e69a4ac6e88f41444c3f5e8bdb8}} 
+\index{MultipleFiles@{MultipleFiles}!combineFiles@{combineFiles}}
+\index{combineFiles@{combineFiles}!MultipleFiles@{MultipleFiles}}
+\doxysubsubsection{\texorpdfstring{combineFiles()}{combineFiles()}}
+{\footnotesize\ttfamily void Multiple\+Files\+::combine\+Files (\begin{DoxyParamCaption}\item[{std\+::string}]{filename,  }\item[{int}]{filenum,  }\item[{std\+::string}]{election\+Type }\end{DoxyParamCaption})}
+
+
+
+function that goes through multiple files and combines data into \char`\"{}combined\+File.\+csv\char`\"{} for I\+RV and O\+PL 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & name of current file as a string \\
+\hline
+{\em filenum} & current file number out of all files as an int \\
+\hline
+{\em election\+Type} & election type indicator \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{multipleFiles_8h}{multiple\+Files.\+h}}\item 
+\mbox{\hyperlink{multipleFiles_8cpp}{multiple\+Files.\+cpp}}\end{DoxyCompactItemize}

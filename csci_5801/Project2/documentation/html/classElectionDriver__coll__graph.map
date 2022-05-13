@@ -1,0 +1,5 @@
+<map id="ElectionDriver" name="ElectionDriver">
+<area shape="rect" id="node1" title="An abstract class handling all election types." alt="" coords="48,95,163,121"/>
+<area shape="rect" id="node2" href="$classTextResult.html" title="class that generates the output files" alt="" coords="5,5,96,32"/>
+<area shape="rect" id="node3" href="$classCoin.html" title="A class that uses a coin flip to determine the winner of a tie." alt="" coords="135,5,185,32"/>
+</map>

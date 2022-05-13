@@ -1,0 +1,111 @@
+\hypertarget{classBallotQueue}{}\doxysection{Ballot\+Queue Class Reference}
+\label{classBallotQueue}\index{BallotQueue@{BallotQueue}}
+
+
+A class that holds all of the ballots.  
+
+
+
+
+{\ttfamily \#include $<$ballot\+Queue.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classBallotQueue_a2973261e6273a112fde484631ffd4a58}{get\+Count}} ()
+\begin{DoxyCompactList}\small\item\em Gets the number of ballots that have been counted. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBallotQueue_a6cfcee7905489c2e30b6e0644851f620}{push}} (\mbox{\hyperlink{classBallot}{Ballot}} $\ast$ballot\+\_\+to\+\_\+push)
+\begin{DoxyCompactList}\small\item\em Adds the ballot onto the ballot vector. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classBallot}{Ballot}} $\ast$ \mbox{\hyperlink{classBallotQueue_a95507e65091f80c66adb8a3e4e3b0c3a}{pop}} ()
+\begin{DoxyCompactList}\small\item\em Removes the ballot off the ballot vector. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBallotQueue_acb138a0aefbab86ae3a212e11727f334}{shuffle}} ()
+\begin{DoxyCompactList}\small\item\em Shuffles the ballot vector. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classBallotQueue_ae2ad0ca3ddb9a98a1440cdb681ef5bf1}{is\+Empty}} ()
+\begin{DoxyCompactList}\small\item\em A function for determining if the queue is empty. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classBallotQueue_a20e876e649ac508a7e0535f8947dc255}\label{classBallotQueue_a20e876e649ac508a7e0535f8947dc255}} 
+std\+::string {\bfseries name}
+\item 
+\mbox{\Hypertarget{classBallotQueue_addd0861a49d85e97eee40d9047059463}\label{classBallotQueue_addd0861a49d85e97eee40d9047059463}} 
+bool {\bfseries has\+\_\+won}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class that holds all of the ballots. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classBallotQueue_a2973261e6273a112fde484631ffd4a58}\label{classBallotQueue_a2973261e6273a112fde484631ffd4a58}} 
+\index{BallotQueue@{BallotQueue}!getCount@{getCount}}
+\index{getCount@{getCount}!BallotQueue@{BallotQueue}}
+\doxysubsubsection{\texorpdfstring{getCount()}{getCount()}}
+{\footnotesize\ttfamily int Ballot\+Queue\+::get\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the number of ballots that have been counted. 
+
+\begin{DoxyReturn}{Returns}
+number of ballots counted 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classBallotQueue_ae2ad0ca3ddb9a98a1440cdb681ef5bf1}\label{classBallotQueue_ae2ad0ca3ddb9a98a1440cdb681ef5bf1}} 
+\index{BallotQueue@{BallotQueue}!isEmpty@{isEmpty}}
+\index{isEmpty@{isEmpty}!BallotQueue@{BallotQueue}}
+\doxysubsubsection{\texorpdfstring{isEmpty()}{isEmpty()}}
+{\footnotesize\ttfamily bool Ballot\+Queue\+::is\+Empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+A function for determining if the queue is empty. 
+
+\begin{DoxyReturn}{Returns}
+true if empty, false if ballots remain in vector queue 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classBallotQueue_a95507e65091f80c66adb8a3e4e3b0c3a}\label{classBallotQueue_a95507e65091f80c66adb8a3e4e3b0c3a}} 
+\index{BallotQueue@{BallotQueue}!pop@{pop}}
+\index{pop@{pop}!BallotQueue@{BallotQueue}}
+\doxysubsubsection{\texorpdfstring{pop()}{pop()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classBallot}{Ballot}} $\ast$ Ballot\+Queue\+::pop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Removes the ballot off the ballot vector. 
+
+\begin{DoxyReturn}{Returns}
+the ballot that was removed from the ballot vector 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classBallotQueue_a6cfcee7905489c2e30b6e0644851f620}\label{classBallotQueue_a6cfcee7905489c2e30b6e0644851f620}} 
+\index{BallotQueue@{BallotQueue}!push@{push}}
+\index{push@{push}!BallotQueue@{BallotQueue}}
+\doxysubsubsection{\texorpdfstring{push()}{push()}}
+{\footnotesize\ttfamily void Ballot\+Queue\+::push (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classBallot}{Ballot}} $\ast$}]{ballot\+\_\+to\+\_\+push }\end{DoxyParamCaption})}
+
+
+
+Adds the ballot onto the ballot vector. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ballot\+\_\+to\+\_\+push} & the ballot that is being pushed onto the ballot vector \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classBallotQueue_acb138a0aefbab86ae3a212e11727f334}\label{classBallotQueue_acb138a0aefbab86ae3a212e11727f334}} 
+\index{BallotQueue@{BallotQueue}!shuffle@{shuffle}}
+\index{shuffle@{shuffle}!BallotQueue@{BallotQueue}}
+\doxysubsubsection{\texorpdfstring{shuffle()}{shuffle()}}
+{\footnotesize\ttfamily void Ballot\+Queue\+::shuffle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Shuffles the ballot vector. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/nguy2841/csci5801/repo-\/\+Team13/\+Project1/src/ballot\+Queue.\+h\item 
+/home/nguy2841/csci5801/repo-\/\+Team13/\+Project1/src/ballot\+Queue.\+cpp\end{DoxyCompactItemize}

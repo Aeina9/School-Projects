@@ -1,0 +1,6 @@
+<map id="IRVDriver" name="IRVDriver">
+<area shape="rect" id="node1" title="A class for running the IRV Election." alt="" coords="63,171,147,197"/>
+<area shape="rect" id="node2" href="$classElectionDriver.html" title="An abstract class handling all election types." alt="" coords="48,95,163,121"/>
+<area shape="rect" id="node3" href="$classTextResult.html" title="class that generates the output files" alt="" coords="5,5,96,32"/>
+<area shape="rect" id="node4" href="$classCoin.html" title="A class that uses a coin flip to determine the winner of a tie." alt="" coords="135,5,185,32"/>
+</map>

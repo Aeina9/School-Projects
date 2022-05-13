@@ -1,0 +1,8 @@
+<map id="ballotQueue.h" name="ballotQueue.h">
+<area shape="rect" id="node1" title="A class that holds all of the ballots." alt="" coords="135,5,248,32"/>
+<area shape="rect" id="node2" href="$all__test_8cpp.html" title="Google testing file." alt="" coords="5,80,103,107"/>
+<area shape="rect" id="node3" href="$ballotQueue_8cpp.html" title="Implementation of ballotQueue functions." alt="" coords="127,80,255,107"/>
+<area shape="rect" id="node4" href="$irvDriver_8h.html" title="A class for running the IRV Election." alt="" coords="279,80,370,107"/>
+<area shape="rect" id="node5" href="$irvDriver_8cpp.html" title="Runs an IRV election." alt="" coords="211,155,318,181"/>
+<area shape="rect" id="node6" href="$main_8cpp.html" title="Main function in that takes in command line inputs and runs the according election with the files giv..." alt="" coords="342,155,425,181"/>
+</map>
